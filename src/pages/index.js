@@ -9,6 +9,7 @@ import Img from "~/components/pic"
 import Image from "../components/pic"
 import ProjectCard from "../components/project-card"
 import ArticleImg from "../images/article-img.jpg"
+import HeroImg from "../images/home-hero.jpg"
 
 
 export default () => {
@@ -30,7 +31,8 @@ return (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <section class="project-page padding-y-xl flex flex-column items-center">
       <main class="margin-sm">
-        <div class="hero radius-lg" >
+        <div class="hero radius-lg"  style={{
+          backgroundImage: `url('${HeroImg}')`}}>
           {/* <Image filename="home-hero.jpg" style={{ height: "825px", width: "100%" }} imgStyle={{ objectFit: "cover" }} /> */}
           <div class="content position-relative">
             <h1 class="text-xxxxl color-bg">Welcome to your mental freedom.</h1>
@@ -45,7 +47,11 @@ return (
           <p class="text-lg color-contrast-higher"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit ac amet et rutrum curabitur.</p>
         </div>
         <ul class="grid gap-sm padding-bottom-sm">
-        <ProjectCard classes="col-8@md" title="10 ways to be happy" url="latimer-app" cover={ArticleImg} />
+          <ProjectCard classes="col-6@md" title="10 ways to be happy" url="latimer-app" cover={ArticleImg} />
+          <ProjectCard classes="col-6@md" title="10 ways to be happy" url="latimer-app" cover={ArticleImg} />
+          <ProjectCard classes="col-4@md" title="10 ways to be happy" url="latimer-app" cover={ArticleImg} />
+          <ProjectCard classes="col-4@md" title="10 ways to be happy" url="latimer-app" cover={ArticleImg} />
+          <ProjectCard classes="col-4@md" title="10 ways to be happy" url="latimer-app" cover={ArticleImg} />
         </ul>
       </main>
     </section>

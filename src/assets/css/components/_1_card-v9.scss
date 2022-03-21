@@ -11,16 +11,11 @@ Title: Card v9
   z-index: 1;
   text-decoration: none;
   color: inherit;
-  background-color: var(--color-contrast-lower);
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
   overflow: hidden;
-  box-shadow: var(--shadow-sm);
   transition: 0.3s;
-  &:hover {
-    box-shadow: var(--shadow-md);
-  }
 }
 
 .card-v9__content {
