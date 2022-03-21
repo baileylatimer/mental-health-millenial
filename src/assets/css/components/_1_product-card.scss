@@ -1,0 +1,105 @@
+/* -------------------------------- 
+
+File#: _1_product-card
+Title: Product Card
+Descr: A selection of product information used as teasers for further content
+
+-------------------------------- */
+
+.prod-card {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  &:hover {
+    a {
+      color: var(--color-contrast-higher) !important;
+    }
+    box-shadow: 0 16px 80px 0 rgba(0, 0, 0, 0.1);
+  }
+}
+
+.prod-card__img-link {
+  text-decoration: none;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  &::before {
+    pointer-events: none;
+    content: '';
+    display: block;
+    background-image: linear-gradient(
+      224deg,
+      rgba(255, 255, 255, 0) 13%,
+      rgba(255, 255, 255, 0.35) 36%,
+      rgba(255, 255, 255, 0.24) 52%,
+      rgba(255, 255, 255, 0.35) 58%,
+      rgba(255, 255, 255, 0) 85%
+    );
+    background-position-x: -100%;
+    mix-blend-mode: overlay;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.85;
+  }
+  &:hover {
+    box-shadow: 0 16px 80px 0 rgba(0, 0, 0, 0.1);
+    &:before {
+      transition: background-position 1200ms, opacity 1000ms;
+      background-position-x: 200%;
+      opacity: 0;
+    }
+  }
+}
+
+.prod-card__img {
+  transition: opacity 0.2s;
+
+  img {
+    display: block;
+    width: 100%;
+  }
+}
+
+.prod-card__badge {
+  position: absolute;
+  z-index: 1;
+  top: var(--space-sm);
+  right: var(--space-sm);
+  background-color: alpha(var(--color-bg), 0.95);
+  padding: var(--space-xxs) var(--space-sm);
+
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-contrast-medium);
+  font-weight: 500;
+}
+
+.prod-card__price {
+}
+
+.prod-card__price--old {
+  color: var(--color-accent);
+  text-decoration: line-through;
+
+  &::before {
+    content: 'original price';
+    @include srHide;
+  }
+}
+
+.prod-card__price--new {
+  text-decoration: none;
+
+  &::before {
+    content: 'discounted price';
+    @include srHide;
+  }
+}
