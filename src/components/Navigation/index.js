@@ -23,10 +23,18 @@ const Navigation = ({ siteTitle }) => {
 
 	return(
 	<header className="width-100vw border-bottom position-fixed z-index-3 flex justify-center">
-			<Container>
+			<Container className="flex justify-between width-100%">
 				<MenuLink className="glitch color-contrast-higher text-md" data-text={siteTitle} to='/'>
 					{siteTitle}
 				</MenuLink>
+        <div class="">
+        <MenuLink className="glitch color-contrast-higher text-md" data-text='Blog' to='/'>
+					Blog
+				</MenuLink>
+        <MenuLink className="glitch color-contrast-higher text-md margin-left-sm" data-text='Contact' to='/'>
+         Contact
+				</MenuLink>
+        </div>
 			</Container>
 	</header>
 	)
