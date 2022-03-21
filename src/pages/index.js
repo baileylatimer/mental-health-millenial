@@ -8,6 +8,7 @@ import ProductGrid from '~/components/ProductGrid'
 import Img from "~/components/pic"
 import Image from "../components/pic"
 
+
 export default () => {
   const data = useStaticQuery(graphql`
     query {
@@ -26,43 +27,14 @@ return (
   <>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <section class="project-page padding-y-xl flex flex-column items-center">
-      <div class="hero">
-      <h1 class="text-xxxxl color-contrast-higher text-uppercase text-center">Under construction — Under construction — Under construction — Under construction — Under construction — Under construction —</h1>
+      <div class="hero" >
+        <Image filename="home-hero.jpg" style={{ height: "825px", width: "100%" }} imgStyle={{ objectFit: "cover" }} />
+        <div class="content">
+          <h1 class="text-xxxxl color-bg">Welcome to your mental freedom.</h1>
+        </div>
       </div>
     </section>
 
-<div class="snowflakes" aria-hidden="true">
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-</div>
   </>
 )
 }
