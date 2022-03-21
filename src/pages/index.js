@@ -7,6 +7,8 @@ import SEO from '~/components/seo'
 import ProductGrid from '~/components/ProductGrid'
 import Img from "~/components/pic"
 import Image from "../components/pic"
+import ProjectCard from "../components/project-card"
+import ArticleImg from "../images/article-img.jpg"
 
 
 export default () => {
@@ -39,6 +41,12 @@ return (
             </div>
           </div>
         </div>
+        <div class="margin-top-lg">
+          <p class="text-lg color-contrast-higher"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit ac amet et rutrum curabitur.</p>
+        </div>
+        <ul class="grid gap-sm padding-bottom-sm">
+        <ProjectCard classes="col-8@md" title="10 ways to be happy" url="latimer-app" cover={ArticleImg} />
+        </ul>
       </main>
     </section>
 

@@ -29,11 +29,6 @@ Title: Card v9
   flex-direction: column;
   position: relative;
   z-index: 2;
-  opacity: 0;
-  background: var(--color-contrast-lower);
-  &:hover {
-    opacity: 1;
-  }
 }
 
 .card-v9__btn {
@@ -53,7 +48,7 @@ Title: Card v9
 
   &::after {
     // button background
-    content: "";
+    content: '';
     position: absolute;
     z-index: 1;
     top: 0;
@@ -84,7 +79,7 @@ Title: Card v9
 // --overlay-bg
 .card-v9--overlay-bg {
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     z-index: 1;
     top: 0;
