@@ -1,12 +1,12 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("/Users/baileylatimer/LocalSites/Clients/icymeta/node_modules/@reach/router/index.js"), require("fs"), require("/Users/baileylatimer/LocalSites/Clients/icymeta/node_modules/lodash/merge.js"), require("/Users/baileylatimer/LocalSites/Clients/icymeta/node_modules/lodash/reduce.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
+		module.exports = factory(require("/Users/baileylatimer/LocalSites/Clients/mental-health-millenial/node_modules/@reach/router/index.js"), require("fs"), require("/Users/baileylatimer/LocalSites/Clients/mental-health-millenial/node_modules/lodash/merge.js"), require("/Users/baileylatimer/LocalSites/Clients/mental-health-millenial/node_modules/lodash/reduce.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
 	else if(typeof define === 'function' && define.amd)
-		define("lib", ["/Users/baileylatimer/LocalSites/Clients/icymeta/node_modules/@reach/router/index.js", "fs", "/Users/baileylatimer/LocalSites/Clients/icymeta/node_modules/lodash/merge.js", "/Users/baileylatimer/LocalSites/Clients/icymeta/node_modules/lodash/reduce.js", "path", "react", "react-dom/server", "react-helmet"], factory);
+		define("lib", ["/Users/baileylatimer/LocalSites/Clients/mental-health-millenial/node_modules/@reach/router/index.js", "fs", "/Users/baileylatimer/LocalSites/Clients/mental-health-millenial/node_modules/lodash/merge.js", "/Users/baileylatimer/LocalSites/Clients/mental-health-millenial/node_modules/lodash/reduce.js", "path", "react", "react-dom/server", "react-helmet"], factory);
 	else if(typeof exports === 'object')
-		exports["lib"] = factory(require("/Users/baileylatimer/LocalSites/Clients/icymeta/node_modules/@reach/router/index.js"), require("fs"), require("/Users/baileylatimer/LocalSites/Clients/icymeta/node_modules/lodash/merge.js"), require("/Users/baileylatimer/LocalSites/Clients/icymeta/node_modules/lodash/reduce.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
+		exports["lib"] = factory(require("/Users/baileylatimer/LocalSites/Clients/mental-health-millenial/node_modules/@reach/router/index.js"), require("fs"), require("/Users/baileylatimer/LocalSites/Clients/mental-health-millenial/node_modules/lodash/merge.js"), require("/Users/baileylatimer/LocalSites/Clients/mental-health-millenial/node_modules/lodash/reduce.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
 	else
-		root["lib"] = factory(root["/Users/baileylatimer/LocalSites/Clients/icymeta/node_modules/@reach/router/index.js"], root["fs"], root["/Users/baileylatimer/LocalSites/Clients/icymeta/node_modules/lodash/merge.js"], root["/Users/baileylatimer/LocalSites/Clients/icymeta/node_modules/lodash/reduce.js"], root["path"], root["react"], root["react-dom/server"], root["react-helmet"]);
+		root["lib"] = factory(root["/Users/baileylatimer/LocalSites/Clients/mental-health-millenial/node_modules/@reach/router/index.js"], root["fs"], root["/Users/baileylatimer/LocalSites/Clients/mental-health-millenial/node_modules/lodash/merge.js"], root["/Users/baileylatimer/LocalSites/Clients/mental-health-millenial/node_modules/lodash/reduce.js"], root["path"], root["react"], root["react-dom/server"], root["react-helmet"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE__reach_router__, __WEBPACK_EXTERNAL_MODULE_fs__, __WEBPACK_EXTERNAL_MODULE_lodash_merge__, __WEBPACK_EXTERNAL_MODULE_lodash_reduce__, __WEBPACK_EXTERNAL_MODULE_path__, __WEBPACK_EXTERNAL_MODULE_react__, __WEBPACK_EXTERNAL_MODULE_react_dom_server__, __WEBPACK_EXTERNAL_MODULE_react_helmet__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -129,7 +129,7 @@ var plugins = [{
     "cache_busting_mode": "query",
     "crossOrigin": "anonymous",
     "include_favicon": true,
-    "cacheDigest": "99e0d6ed735c508777f2de45ef41e786"
+    "cacheDigest": "e455db832bf7f3147cad30ed3255ddd9"
   }
 }, {
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-offline/gatsby-ssr */ "./node_modules/gatsby-plugin-offline/gatsby-ssr.js"),
@@ -5883,7 +5883,7 @@ try {
   Layout = preferDefault(__webpack_require__(/*! ./src/layouts/index */ "./src/layouts/index.js"));
 } catch (e) {
   if (e.toString().indexOf("Error: Cannot find module") !== -1) {
-    throw new Error("Couldn't find layout component at \"" + "/Users/baileylatimer/LocalSites/Clients/icymeta/src/layouts/index" + ".\n\n" + "Please create layout component in that location or specify path to layout component in gatsby-config.js");
+    throw new Error("Couldn't find layout component at \"" + "/Users/baileylatimer/LocalSites/Clients/mental-health-millenial/src/layouts/index" + ".\n\n" + "Please create layout component in that location or specify path to layout component in gatsby-config.js");
   } else {
     // Logging the error for debugging older browsers as there is no way
     // to wrap the thrown error in a try/catch.
@@ -44014,7 +44014,7 @@ module.exports = Client;
 /*! exports provided: data, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"data\":{\"allShopifyPage\":{\"nodes\":[{\"title\":\"Demo\",\"handle\":\"demo\"}]},\"site\":{\"siteMetadata\":{\"title\":\"Merry Christmas\"}}}}");
+module.exports = JSON.parse("{\"data\":{\"allShopifyPage\":{\"nodes\":[{\"title\":\"Demo\",\"handle\":\"demo\"}]},\"site\":{\"siteMetadata\":{\"title\":\"Mental Health Millenial\"}}}}");
 
 /***/ }),
 
@@ -44523,9 +44523,9 @@ const MainContent = _emotion_styled__WEBPACK_IMPORTED_MODULE_2__["default"].main
 /***/ }),
 
 /***/ "@reach/router":
-/*!******************************************************************************************************!*\
-  !*** external "/Users/baileylatimer/LocalSites/Clients/icymeta/node_modules/@reach/router/index.js" ***!
-  \******************************************************************************************************/
+/*!**********************************************************************************************************************!*\
+  !*** external "/Users/baileylatimer/LocalSites/Clients/mental-health-millenial/node_modules/@reach/router/index.js" ***!
+  \**********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -44545,9 +44545,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_fs__;
 /***/ }),
 
 /***/ "lodash/merge":
-/*!***********************************************************************************************!*\
-  !*** external "/Users/baileylatimer/LocalSites/Clients/icymeta/node_modules/lodash/merge.js" ***!
-  \***********************************************************************************************/
+/*!***************************************************************************************************************!*\
+  !*** external "/Users/baileylatimer/LocalSites/Clients/mental-health-millenial/node_modules/lodash/merge.js" ***!
+  \***************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -44556,9 +44556,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_merge__;
 /***/ }),
 
 /***/ "lodash/reduce":
-/*!************************************************************************************************!*\
-  !*** external "/Users/baileylatimer/LocalSites/Clients/icymeta/node_modules/lodash/reduce.js" ***!
-  \************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** external "/Users/baileylatimer/LocalSites/Clients/mental-health-millenial/node_modules/lodash/reduce.js" ***!
+  \****************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 

@@ -6,8 +6,8 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `Baguette Boyz`,
-    description: `IcyMeta presents Baguette Boyz: A web 3, timeless, narrative-based collection of 4,824 Baguette Boyz alive and well on Ethereum Blockchain.`,
+    title: `Mental Health Millenial`,
+    description: `Matt Jirsa is a passionate healthcare leader with a desire to transform healthcare delivery and impact health and well-being.`,
     author: `@latimer2k`,
   },
   plugins: [
