@@ -36,7 +36,7 @@ return (
           {/* <Image filename="home-hero.jpg" style={{ height: "825px", width: "100%" }} imgStyle={{ objectFit: "cover" }} /> */}
           <div class="content position-relative">
             <h1 class="text-xxl text-xxxxl@md color-bg">Welcome to your mental freedom.</h1>
-            <p class="text-lg color-bg margin-top-sm"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit ac amet et rutrum curabitur.</p>
+            <p class="text-md color-bg margin-top-sm"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit ac amet et rutrum curabitur.</p>
             <div class="flex">
               <a class="btn btn--primary margin-right-sm">Read more</a>
               <a class="btn btn--accent">Contact</a>
@@ -44,7 +44,7 @@ return (
           </div>
         </div>
         <div class="margin-top-lg">
-          <p class="text-lg color-contrast-higher"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit ac amet et rutrum curabitur.</p>
+          <p class="text-md color-contrast-higher"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit ac amet et rutrum curabitur.</p>
         </div>
         <ul class="grid gap-sm padding-bottom-sm">
           <ProjectCard classes="col-6@md" title="10 ways to be happy" url="latimer-app" cover={ArticleImg} />

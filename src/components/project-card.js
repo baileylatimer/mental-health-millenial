@@ -13,8 +13,8 @@ const ProjectCard = props => (
           <Image className="radius-lg" filename='article-img.jpg' alt="Me pretending to work"/>
             <div class="card-v9__content padding-top-sm adv-gallery-v3__img-link">
                 <div class="padding-bottom-sm max-width-xxs">
-                    <p class="color-contrast-higher margin-bottom-xxs text-lg">{props.title}</p>
-                    <a id="card-title-2" class="text-lg color-contrast-higher text-underline" >Read now ➞</a>
+                    <p class="color-contrast-higher margin-bottom-xxs text-md">{props.title}</p>
+                    <a id="card-title-2" class="text-md color-contrast-higher text-underline" >Read now ➞</a>
                 </div>
             </div>
 

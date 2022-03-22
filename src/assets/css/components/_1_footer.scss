@@ -1,16 +1,18 @@
 footer {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
   height: auto;
   overflow: visible;
+  min-height: 320px;
   z-index: 10;
-  position: fixed;
   bottom: 0;
   padding: var(--space-xs);
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0) -8.06%,
-    rgba(0, 0, 0, 0.9) 62.9%
-  );
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  -webkit-border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  -moz-border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  -ms-border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  -o-border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+}
+
+.content {
+  max-width: 1660px;
+  margin: 0 auto;
 }
