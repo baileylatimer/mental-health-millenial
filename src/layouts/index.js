@@ -14,32 +14,13 @@ const Wrapper = styled.div`
 `
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(
-    graphql`
-    {
-      allShopifyPage {
-        nodes {
-          title
-          handle
-        }
-      }
-  
- 
-          site {
-            siteMetadata {
-              title
-            }
-          }
-        
-      }
 
-   `)
   
   return (
     <ContextProvider>
       <GlobalStyle />
         <div class="noise"></div>
-        <Navigation siteTitle={data.site.siteMetadata.title} />
+        <Navigation siteTitle='Mental Health Millenial' />
           <div>
             <Wrapper>
               {children}

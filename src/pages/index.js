@@ -4,26 +4,12 @@ import { Link } from 'gatsby'
 
 import { useStaticQuery, graphql } from "gatsby"
 import SEO from '~/components/seo'
-import ProductGrid from '~/components/ProductGrid'
-import Img from "~/components/pic"
-import Image from "../components/pic"
 import ProjectCard from "../components/project-card"
 import ArticleImg from "../images/article-img.jpg"
 import HeroImg from "../images/home-hero.jpg"
 
 
 export default () => {
-  const data = useStaticQuery(graphql`
-    query {
-      file(relativePath: {eq: "cover_gosun.jpg"}) {
-        childImageSharp {
-          fluid {
-          ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `)
 
 
 return (
