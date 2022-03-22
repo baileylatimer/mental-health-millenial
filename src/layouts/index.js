@@ -7,7 +7,6 @@ import ContextProvider from '~/provider/ContextProvider'
 
 import { GlobalStyle } from '~/utils/styles'
 import Navigation from '~/components/Navigation'
-import Footer from '~/components/Footer'
 
 const Wrapper = styled.div`
   margin: 0 auto;
