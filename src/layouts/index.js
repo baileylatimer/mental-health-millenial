@@ -20,7 +20,7 @@ const Layout = ({ children }) => {
     <ContextProvider>
       <GlobalStyle />
         <div class="noise"></div>
-        <Navigation siteTitle='Mental Health Millenial' />
+        <Navigation siteTitle='MHM' />
           <div>
             <Wrapper>
               {children}
