@@ -29,13 +29,13 @@ export default () => {
 return (
   <>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <section class="project-page padding-y-xl flex flex-column items-center">
+    <section class="project-page padding-y-lg flex flex-column items-center">
       <main class="margin-sm">
         <div class="hero radius-lg"  style={{
           backgroundImage: `url('${HeroImg}')`}}>
           {/* <Image filename="home-hero.jpg" style={{ height: "825px", width: "100%" }} imgStyle={{ objectFit: "cover" }} /> */}
           <div class="content position-relative">
-            <h1 class="text-xxxxl color-bg">Welcome to your mental freedom.</h1>
+            <h1 class="text-xxl text-xxxxl@md color-bg">Welcome to your mental freedom.</h1>
             <p class="text-lg color-bg margin-top-sm"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit ac amet et rutrum curabitur.</p>
             <div class="flex">
               <a class="btn btn--primary margin-right-sm">Read more</a>
