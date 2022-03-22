@@ -10,7 +10,7 @@ const ProjectCard = props => (
   
     <li className={props.classes + " reveal-fx reveal-fx--translate-up "}>
         <Link className=" card-v9" to={ "/work/" + props.url} >
-          <Image filename='article-img.jpg' alt="Me pretending to work"/>
+          <Image className="radius-lg" filename='article-img.jpg' alt="Me pretending to work"/>
             <div class="card-v9__content padding-top-sm adv-gallery-v3__img-link">
                 <div class="padding-bottom-sm max-width-xxs">
                     <p class="color-contrast-higher margin-bottom-xxs text-lg">{props.title}</p>

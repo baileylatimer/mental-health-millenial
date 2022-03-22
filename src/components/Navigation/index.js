@@ -22,7 +22,7 @@ const Navigation = ({ siteTitle }) => {
   const [hasItems, quantity] = useQuantity()
 
 	return(
-	<header className="width-100vw border-bottom position-fixed z-index-3 flex justify-center">
+	<header className="width-100% border-bottom position-fixed z-index-3 flex justify-center">
 			<Container className="flex justify-between width-100%">
 				<MenuLink className="glitch color-contrast-higher text-md" data-text={siteTitle} to='/'>
 					{siteTitle}
